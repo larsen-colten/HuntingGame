@@ -1982,3 +1982,179 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 1.628900 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.399600 ms  DeleteObjects: 0.015900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 704.972847 seconds.
+  path: Assets/GreenForest/Forest.asset
+  artifactKey: Guid(f173055a480d532409743a1698bc1863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Forest.asset using Guid(f173055a480d532409743a1698bc1863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e603e76b1a07db1886bbe3eb22c6021') in 0.601111 seconds 
+  Import took 0.611832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.133679 seconds.
+  path: Assets/GreenForest/Scences
+  artifactKey: Guid(2692daf6620250945936d0918db6c04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Scences using Guid(2692daf6620250945936d0918db6c04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ecda615f57e28ba3e54fc045797a1b') in 0.005712 seconds 
+  Import took 0.007738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.405855 seconds.
+  path: Assets/GreenForest/Scences/Scene.unity
+  artifactKey: Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Scences/Scene.unity using Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1d4b686e8506c826474552d1857a6f') in 0.006657 seconds 
+  Import took 0.008672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001188 seconds.
+  path: Assets/GreenForest/Scences/Scene.unity
+  artifactKey: Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Scences/Scene.unity using Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1d4b686e8506c826474552d1857a6f') in 0.001909 seconds 
+  Import took 0.003410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.743280 seconds.
+  path: Assets/GreenForest/Scences/TreeCreationScene.unity
+  artifactKey: Guid(6081b839c74e3b24488c939423f70fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Scences/TreeCreationScene.unity using Guid(6081b839c74e3b24488c939423f70fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36bc3b2a37adfb94dc0bf37511dae16') in 0.006138 seconds 
+  Import took 0.008234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001891 seconds.
+  path: Assets/GreenForest/Scences/TreeCreationScene.unity
+  artifactKey: Guid(6081b839c74e3b24488c939423f70fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Scences/TreeCreationScene.unity using Guid(6081b839c74e3b24488c939423f70fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36bc3b2a37adfb94dc0bf37511dae16') in 0.002075 seconds 
+  Import took 0.003695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.702305 seconds.
+  path: Assets/Scenes/testForest2.unity
+  artifactKey: Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testForest2.unity using Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7e0ee49ea1e8b07ef75226b687004f') in 0.006239 seconds 
+  Import took 0.008751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 367.091843 seconds.
+  path: Assets/GreenForest/Forest.asset
+  artifactKey: Guid(f173055a480d532409743a1698bc1863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Forest.asset using Guid(f173055a480d532409743a1698bc1863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c671e84cf7c15f6996edcc69b8c49ad') in 0.082298 seconds 
+  Import took 0.092721 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.8 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2083.
+Total: 1.937600 ms (FindLiveObjects: 0.146400 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.440500 ms  DeleteObjects: 0.315000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.443550 seconds.
+  path: Assets/Scenes/testForest2.unity
+  artifactKey: Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testForest2.unity using Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5f9d5c540d51b7eca3e4bc59c9a810') in 0.008400 seconds 
+  Import took 0.010319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001060 seconds.
+  path: Assets/Scenes/testForest2.unity
+  artifactKey: Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testForest2.unity using Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5f9d5c540d51b7eca3e4bc59c9a810') in 0.001737 seconds 
+  Import took 0.003289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.401155 seconds.
+  path: Assets/Scenes/testForest2Settings.lighting
+  artifactKey: Guid(825a4867dd931694c8d237807116f621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testForest2Settings.lighting using Guid(825a4867dd931694c8d237807116f621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'fb29948f431b6b6aa39bf985c632991b') in 0.006788 seconds 
+  Import took 0.008727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010086 seconds.
+  path: Assets/Scenes/testForest2Settings.lighting
+  artifactKey: Guid(825a4867dd931694c8d237807116f621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testForest2Settings.lighting using Guid(825a4867dd931694c8d237807116f621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'fb29948f431b6b6aa39bf985c632991b') in 0.002221 seconds 
+  Import took 0.003817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.670575 seconds.
+  path: Assets/Scenes/testForest.unity
+  artifactKey: Guid(7769f33fb4fa2e5458344a36556ad760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testForest.unity using Guid(7769f33fb4fa2e5458344a36556ad760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3ab8edb824a791bcb902a45be06bd5') in 0.002281 seconds 
+  Import took 0.004208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.927138 seconds.
+  path: Assets/Scenes/testForest2.unity
+  artifactKey: Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testForest2.unity using Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b05f59f10d513171cff335b079161f0') in 0.002255 seconds 
+  Import took 0.004277 seconds .
+
