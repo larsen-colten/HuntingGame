@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
+    public CameraBobbing Head;
 
     // Speed
     public float baseSpeed = 12f;
@@ -29,6 +30,10 @@ public class PlayerMovement : MonoBehaviour
         {
             velocity.y = -2f;
         }
+        else
+        {
+            Head.isWalking = false;
+        }
 
         // Input
         float x = Input.GetAxis("Horizontal");
@@ -38,15 +43,29 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             currentSpeed = baseSpeed + sprintSpeed;
+            Head.bobFrequency = 8f;
         }
         else
         {
             currentSpeed = baseSpeed;
+            Head.bobFrequency = 5f;
         }
 
         // Movement
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * currentSpeed * Time.deltaTime);
+
+        Debug.Log(move);
+
+        // Head bobbing check
+        if (move.x != 0 || move.y != 0)
+        {
+            Head.isWalking = true;
+        }
+        else
+        {
+            Head.isWalking = false;
+        }
 
         // Jump
         if (Input.GetButtonDown("Jump") && isGrounded)
